@@ -1,0 +1,95 @@
+/* Create two equal columns that floats next to each other */
+body{
+    padding-top: 50px;
+}
+.column {
+  float: left;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.clubLogo{
+    width: 50%;
+    float: center;
+}
+.left {
+  width: 28%;
+}
+
+.right {
+  width: 60%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.2)), url("images/paper.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.clubConstitution{
+    float: right;
+    background-color: #E5A823;
+    border: none;
+    padding: 10PX;
+}
+.header{
+    width: 100%;
+    text-align: center;
+}
+.officerColumn {
+  float: left;
+  width: 20%;
+  height: 400px; /* Should be removed. Only for demonstration */
+    margin: 1%;
+}
+/* Clear floats after the columns */
+.row{
+    margin-left: 6%;
+    margin-right: 6%;
+    width: 100%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .officerColumn {
+    width: 100%;
+  }
+}
+.president{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images/officerPics/maiaMcdonald.jpg");
+}
+.vicePresident{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images/officerPics/kyle.jpg");
+}
+.treasurer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images/officerPics/Sexy-Cat.png");
+}
+.marketing{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images/officerPics/daniel.jpg");
+}
+.webDeveloper{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images/officerPics/brah.jpg");
+}
+.graphicDesigner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images/officerPics/Grumpy-Cat-Bed.jpg");
+}
+.eventCoordinator{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images/officerPics/knifeCat.jpg");
+}
+.officerPortrait{
+    height: 250px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.officerPortraitText{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.introText{
+    padding-left: 30px;
+    padding-right: 30px;
+}

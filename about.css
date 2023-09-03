@@ -2,6 +2,17 @@
 body{
     padding-top: 50px;
 }
+.{}
+.aboutIntro{
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 100%;
+}
+.aboutIntro:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .column {
   float: left;
   height: 300px; /* Should be removed. Only for demonstration */
@@ -13,7 +24,6 @@ body{
 .left {
   width: 28%;
 }
-
 .right {
   width: 60%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.2)), url("images/paper.jpg");
@@ -29,28 +39,43 @@ body{
     border: none;
     padding: 10PX;
 }
+.introText{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/*officer_section------------------------------------------------------------*/
 .header{
     width: 100%;
     text-align: center;
+    padding-top: 20px;
+}
+.officerColumn1 {
+  float: left;
+  width: 23%;
+  height: 500px; /* Should be removed. Only for demonstration */
+    margin: 1%;
+    background-color: #0055A2;
+    color: white;
 }
 .officerColumn {
   float: left;
-  width: 20%;
-  height: 400px; /* Should be removed. Only for demonstration */
+  width: 23%;
+  height: 500px; /* Should be removed. Only for demonstration */
     margin: 1%;
+    background-color: white;
 }
 /* Clear floats after the columns */
-.row{
-    margin-left: 6%;
-    margin-right: 6%;
-    width: 100%;
+.officerBlock{
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #939567;
+    
 }
-.row:after {
+.officerBlock:after {
   content: "";
   display: table;
   clear: both;
 }
-
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .officerColumn {
@@ -78,6 +103,9 @@ body{
 .eventCoordinator{
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images/officerPics/knifeCat.jpg");
 }
+.socialMediaManager{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images/officerPics/image.jpg");
+}
 .officerPortrait{
     height: 250px;
   background-position: top;
@@ -89,7 +117,4 @@ body{
     padding-left: 10px;
     padding-right: 10px;
 }
-.introText{
-    padding-left: 30px;
-    padding-right: 30px;
-}
+/*officer_section_end------------------------------------------------------------*/

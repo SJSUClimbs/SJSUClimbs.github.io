@@ -51,7 +51,7 @@ body{
 }
 .officerColumn1 {
   float: left;
-  width: 23%;
+  width: 31.33%;
   height: 500px; /* Should be removed. Only for demonstration */
     margin: 1%;
     background-color: #0055A2;
@@ -59,10 +59,11 @@ body{
 }
 .officerColumn {
   float: left;
-  width: 23%;
+  width: 31.33%;
   height: 500px; /* Should be removed. Only for demonstration */
     margin: 1%;
     background-color: white;
+    color: #0055A2;
 }
 /* Clear floats after the columns */
 .officerBlock{
@@ -84,15 +85,14 @@ body{
 }
 .president{
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images/officerPics/maiaMcdonald.jpg");
+    background-position: bottom;
 }
 .vicePresident{
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images/officerPics/kyle.jpg");
+    background-position: center;
 }
 .treasurer{
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images/officerPics/Sexy-Cat.png");
-}
-.marketing{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images/officerPics/daniel.jpg");
 }
 .webDeveloper{
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images/officerPics/brah.jpg");
@@ -101,14 +101,14 @@ body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images/officerPics/Grumpy-Cat-Bed.jpg");
 }
 .eventCoordinator{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images/officerPics/knifeCat.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images/officerPics/alanMay.jpg");
 }
 .socialMediaManager{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images/officerPics/image.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images/officerPics/daniel.jpg");
+    background-position: bottom;
 }
 .officerPortrait{
-    height: 250px;
-  background-position: top;
+    height: 300px;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;

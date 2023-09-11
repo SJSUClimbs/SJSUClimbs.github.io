@@ -15,7 +15,6 @@ body{
 }
 .column {
   float: left;
-  height: 300px; /* Should be removed. Only for demonstration */
 }
 .clubLogo{
     width: 50%;
@@ -27,7 +26,6 @@ body{
 .right {
   width: 60%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.2)), url("images/paper.jpg");
-  height: 50%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -37,11 +35,11 @@ body{
     float: right;
     background-color: #E5A823;
     border: none;
-    padding: 10PX;
+    padding: 10px 25px;
+    margin-bottom: 10px;
 }
 .introText{
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 20px;
 }
 /*officer_section------------------------------------------------------------*/
 .header{
@@ -60,7 +58,7 @@ body{
 .officerColumn {
   float: left;
   width: 31.33%;
-  height: 500px; /* Should be removed. Only for demonstration */
+  height: 500px;
     margin: 1%;
     background-color: white;
     color: #0055A2;
@@ -70,7 +68,6 @@ body{
     margin-left: 2%;
     margin-right: 2%;
     background-color: #939567;
-    
 }
 .officerBlock:after {
   content: "";

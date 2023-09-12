@@ -1,0 +1,25 @@
+.homeAboutUs{
+    background-color: #0055A2;
+    color: white;
+    padding: 40px;
+    }
+.aboutUsButton{
+    background-color: #E5A823;
+    border: none;
+    padding: 10px 25px;
+    float: right;
+    }
+.socialsLink{
+    width: 80px;
+    height: 80px;
+    }
+.eventSection{
+    background-color: #939597;
+    padding: 40px;
+    }
+.homeToEventButton{
+    padding: 10px 25px;
+    background-color: #E5A823;
+    border: none;
+    float: bottom;
+    }

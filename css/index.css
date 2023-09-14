@@ -13,13 +13,90 @@
     width: 80px;
     height: 80px;
     }
-.eventSection{
-    background-color: #939597;
-    padding: 40px;
-    }
 .homeToEventButton{
     padding: 10px 25px;
     background-color: #E5A823;
     border: none;
     float: bottom;
     }
+/*events section----------------------------------------------------------*/
+.column {
+  float: left;
+  width: 50%;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.row{
+    text-align: center;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.eventsLink{
+    width: 140px;
+    height: 140px;
+    margin: 5px;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    float: left;
+}
+.eventsLink button{
+    text-align: center;
+  cursor: pointer;
+    text-align: center;
+    top: 50%;
+  left: 50%;
+    transform: translate(-50%, -50%);
+}
+.peakOfFreamont:hover:not(.active){
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/icons&logos/peakPeakofFremontLogo.jpg");
+}
+.peakOfFreamont{
+    background-image: url("../images/icons&logos/peakPeakofFremontLogo.jpg");
+}
+/*template--------*/
+.mybuttonoverlap{
+	position: absolute;
+    display: none;
+    padding: 10px 15px;
+}
+.eventsLink:hover .mybuttonoverlap{ 
+	display:block;
+    background-color: #E5A823;
+    color: #0055A2;
+    border: none;
+}
+.studio:hover:not(.active){
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/icons&logos/studioLogo.jpg");
+}
+.studio{
+    background-image: url("../images/icons&logos/studioLogo.jpg");
+}
+.planetGranite:hover:not(.active){
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/icons&logos/planetGraniteLogo.png");
+}
+.planetGranite{
+    background-image: url("../images/icons&logos/planetGraniteLogo.png");
+}
+.castleRock:hover:not(.active){
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/castleRockLogo.jpg");
+}
+.castleRock{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url("../images/castleRockLogo.jpg");
+}
+
+.outdoorText {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.eventsLink:hover:not(.active) .outdoorText{
+    display: none;
+}

@@ -25,7 +25,7 @@ body{
 }
 .right {
   width: 60%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.2)), url("images/paper.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.2)), url("../images/paper.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -81,27 +81,27 @@ body{
   }
 }
 .president{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images/officerPics/maiaMcdonald.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/officerPics/maiaMcdonald.jpg");
     background-position: bottom;
 }
 .vicePresident{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images/officerPics/kyle.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/officerPics/kyle.jpg");
     background-position: center;
 }
 .treasurer{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images/officerPics/Sexy-Cat.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/officerPics/Sexy-Cat.png");
 }
 .webDeveloper{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images/officerPics/brah.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/officerPics/brah.jpg");
 }
 .graphicDesigner{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images/officerPics/Grumpy-Cat-Bed.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/officerPics/Grumpy-Cat-Bed.jpg");
 }
 .eventCoordinator{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images/officerPics/alanMay.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/officerPics/alanMay.jpg");
 }
 .socialMediaManager{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images/officerPics/daniel.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/officerPics/daniel.jpg");
     background-position: bottom;
 }
 .officerPortrait{
